@@ -1,0 +1,904 @@
+/* Generic form styling */
+.meiko-plugin-container button,
+.meiko-plugin-container input[type="button"],
+.meiko-plugin-container input[type="submit"] {
+    /* Define your button styles here */
+    background-color: #4CAF50; /* for instance, a green background */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    transform: scale(0.7);
+    cursor: pointer;
+    margin: 25px;
+    transition: background-color 0.3s;
+}
+
+.meiko-plugin-container button:hover,
+.meiko-plugin-container input[type="button"]:hover,
+.meiko-plugin-container input[type="submit"]:hover {
+    /* Define hover styles here */
+    background-color: #45a049;
+    margin: 25px;
+
+}
+.meiko-bank{
+    margin: 5px;
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.meiko-deposit{
+    margin: 5px;
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.meiko-withdraw{
+    margin: 5px;
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+
+}
+.meiko-transfer{
+    margin: 5px;
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.meiko-study button{
+    display: inline-block;
+    font-size: 90%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meiko-jobs button{
+    display: inline-block;
+    font-size: 90%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meiko-fighting{
+    display: inline-block;
+    font-size: 90%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meiko-create-challenge{
+    display: inline-block;
+    font-size: 50%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.accept-fight-button{
+    display: inline-block;
+    font-size: 90%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.meiko-housing button{
+    display: inline-block;
+    font-size: 90%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meiko-cars button{
+    display: inline-block;
+    font-size: 90%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meiko-attack-pack button{
+    display: inline-block;
+    font-size: 90%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meiko-defense-pack button{
+    display: inline-block;
+    font-size: 90%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#meiko-chat-messages {
+    border: 1px solid #ccc;
+    height: 200px;
+    overflow-y: scroll;
+    font-size: 80% ; 
+    margin-bottom: 10px;
+}
+
+.meiko-buy-item{
+    display: inline-block;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meiko-buy-rank{
+    display: inline-block;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.meiko-sell-item {
+    display: inline-block;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+    background-color: #FF0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meiko-deposit button{
+    display: inline-block;
+    font-size: 90%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meiko-withdraw button{
+    display: inline-block;
+    font-size: 90%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meiko-bank button{
+    display: inline-block;
+    font-size: 90%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meiko-transfer button{
+    display: inline-block;
+    font-size: 90%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meiko-profile h2 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+
+.meiko-profile{
+		margin-left: 90px;
+		margin-right: 80px;
+		background-color: #ffffff;
+		padding: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+}
+
+.meiko-profile-info {
+    flex: 3;
+    padding: 20px;
+}
+
+.meiko-profile-avatar {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+}
+
+.meiko-profile p {
+    margin-bottom: 10px;
+}
+
+.meiko-profile button {
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: red;
+}
+
+.small-font-table {
+    font-size: 11px;
+}
+
+.meiko-faction-profile h2 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.meiko-faction-profile h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.meiko-faction-profile {
+    margin-left: 90px;
+    margin-right: 80px;
+    background-color: #ffffff;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.meiko-faction-profile-info {
+    flex: 3;
+    padding: 20px;
+}
+
+.meiko-faction-profile p {
+    margin-bottom: 10px;
+}
+
+.meiko-faction-details {
+    flex: 1;
+}
+
+.meiko-faction-profile button {
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 45px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: green;
+}
+
+.meiko-faction-profile-info,
+.meiko-faction-members {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.meiko-faction-members table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.meiko-faction-members th,
+.meiko-faction-members td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.meiko-faction-members th {
+    background-color: #f2f2f2;
+}
+
+.meiko-faction-members tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.meiko-faction-members h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.meiko-current-faction-profile {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    padding-bottom: 80px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.meiko-current-faction-profile-info {
+    flex: 3;
+    padding: 20px;
+}
+
+.meiko-current-faction-profile p {
+    margin-bottom: 10px;
+}
+
+.meiko-faction-leave-button {
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: red;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.meiko-faction-donation-button {
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: green;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.meiko-faction-buy-defense-form button{
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.meiko-faction-upload-avatar-form button{
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.meiko-faction-buy-attack-form button{
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.meiko-faction-accept-button{
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: green;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.meiko-faction-refuse-button{
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: red;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.create_faction_form button{
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.roulette-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.roulette-wheel {
+    display: flex;
+    animation: slideLeft 4s linear infinite;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-7500px); 
+    }
+}
+
+.roulette-indicator {
+    position: absolute;
+    left: calc(50%);
+    width: 5px;
+    height: 50px;
+    background-color: darkorange;
+    box-shadow: inset 0 0 10px 	rgba(0, 0, 0, 0.5);
+}
+
+.roulette-line {
+    width: 7000px; 
+    display: flex;
+}
+
+.roulette-number {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    margin: 1px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px 	rgba(0, 0, 0, 0.5);
+}
+
+.green {
+    background-color: green;
+    color: white; /* text color for readability */
+}
+
+.red {
+    background-color: red;
+    color: white; /* text color for readability */
+}
+
+.black {
+    background-color: black;
+    color: white; /* text color for readability */
+}
+
+.roulette-form button{
+    background-color: darkred;
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.login_user {
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: green;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.register_user {
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: rgb(224, 34, 0);
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.new_email > input[type="submit"]{
+	background-color: darkred;
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.new_username > input[type="submit"]{
+	background-color: darkred;
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.new_avatar > input[type="submit"]{
+	background-color: darkred;
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.new_avatar > input[type="button"]{
+	background-color: darkred;
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.new_password > input[type="submit"]{
+	background-color: darkred;
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.new_description > input[type="submit"]{
+	background-color: darkred;
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.send_message_form > input[type="submit"]{
+	background-color: green;
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.meiko_send_chat{
+	background-color: darkblue;
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.meiko-hire-hitmen button{
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: green;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.meiko-hire-guards button{
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: green;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.buy_computer_form > input[type="submit"]{
+	background-color: green;
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%; 
+    padding: 5px 10px;      /* reduce font size to 80% of the original */
+}
+
+.mine_crypto_button > input[type="submit"]{
+	background-color: darkorange;
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.sell_crypto_button > input[type="submit"]{
+	background-color: darkred;
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.crash-form button{
+    background-color: darkred;
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+}
+
+.rank-header {
+    width: 15%;
+    text-align: center;
+} 
+
+.price-header {
+    width: 30%;
+    text-align: center;
+} 
+
+.action-header {
+     width: 15%;
+     text-align: center;
+} 
+
+.meiko-buy-rank {
+    width: 100%;
+    text-align: center;
+}
+
+.description-header {
+    width: 40%;
+    text-align: center;
+} 
+
+.rank-name {
+    text-align: center;
+    vertical-align: middle;
+} 
+
+.rank-description {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px
+} 
+
+.tokens_price {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.sell-plants-form > input[type="submit"]{
+    display: inline-block;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+    background-color: #ff0000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meiko-friend-request-form > input[type="submit"]{
+    display: inline-block;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.friend-user-btn > input[type="submit"]{
+    display: inline-block;
+    font-size: 90%;       /* reduce font size to 80% of the original */
+    padding: 5px 10px;     /* adjust padding as needed, these are just sample values */
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-seeds-form > input[type="submit"]{
+	background-color: green;
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%; 
+    padding: 5px 10px;      /* reduce font size to 80% of the original */
+}
+
+.mk-grow{
+	background-color: darkgreen;
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%; 
+    padding: 5px 10px;      /* reduce font size to 80% of the original */
+}
+
+.mk-water{
+	background-color: darkblue;
+    display: inline-block;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 90%; 
+    padding: 5px 10px;      /* reduce font size to 80% of the original */
+}
+
+.lb_username{
+    font-size: 70%; 
+}
+
+.lb_score{
+    font-size: 70%; 
+}
+
+.lb_rank{
+    font-size: 70%; 
+}
+
+.lb_faction{
+    font-size: 70%; 
+}
+
+.lb_money{
+    font-size: 70%; 
+}
+
+.lb_position{
+    font-size: 70%;
+}
+
+.lb_header_position{
+    width: 5%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.log_attacker{
+    font-size: 70%; 
+}
+
+.log_defender{
+    font-size: 70%; 
+}
+
+.log_amount{
+    font-size: 70%; 
+}
+
+.log_sus{
+    font-size: 70%; 
+}
+
+.log_date{
+    font-size: 70%;
+}
